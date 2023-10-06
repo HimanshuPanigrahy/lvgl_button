@@ -11,7 +11,7 @@ extern "C" {
 #endif
 
 #include "ui.h"
-#include "lvgl/lvgl.h"
+//#include "lvgl/lvgl.h"
 #define _UI_TEMPORARY_STRING_BUFFER_SIZE 32
 #define _UI_BAR_PROPERTY_VALUE 0
 #define _UI_BAR_PROPERTY_VALUE_WITH_ANIM 1
