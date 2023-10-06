@@ -5,7 +5,7 @@
 
 #include "ui.h"
 #include "ui_helpers.h"
-
+#include "lvgl/lvgl.h"
 ///////////////////// VARIABLES ////////////////////
 
 
