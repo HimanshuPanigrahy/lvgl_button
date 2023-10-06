@@ -11,7 +11,7 @@ extern "C" {
 #endif
 
 #include "ui.h"
-
+#include "lvgl/lvgl.h"
 #define _UI_TEMPORARY_STRING_BUFFER_SIZE 32
 #define _UI_BAR_PROPERTY_VALUE 0
 #define _UI_BAR_PROPERTY_VALUE_WITH_ANIM 1
@@ -113,7 +113,8 @@ void _ui_slider_set_text_value( lv_obj_t *trg, lv_obj_t *src, const char *prefix
 
 void _ui_checked_set_text_value( lv_obj_t *trg, lv_obj_t *src, const char *txt_on, const char *txt_off);
 
-void _ui_spinbox_step(lv_obj_t * target, int val);
+void _ui_spinbox_step(lv_obj_t * target, int val)
+;
 
 #ifdef __cplusplus
 } /*extern "C"*/
