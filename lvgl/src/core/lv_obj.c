@@ -25,6 +25,7 @@
 #include "../extra/lv_extra.h"
 #include <stdint.h>
 #include <string.h>
+#include "lvgl/lvgl.h"
 
 #if LV_USE_GPU_STM32_DMA2D
     #include "../draw/stm32_dma2d/lv_gpu_stm32_dma2d.h"
